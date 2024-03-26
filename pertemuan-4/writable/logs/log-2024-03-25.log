@@ -1,0 +1,10 @@
+CRITICAL - 2024-03-25 04:21:56 --> ParseError: syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Page.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Controllers\\Page.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Page')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Page')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Page', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
