@@ -7,7 +7,7 @@ class Page extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Home | Unipdu Press',
+            'title' => 'Home | Mesin Press',
             //'tes' => ['satu', 'dua', 'tiga']
         ];
         return view('page/home', $data);
@@ -17,7 +17,7 @@ class Page extends BaseController
     public function about()
     {
         $data = [
-            'title' => 'About | Unipdu Press',
+            'title' => 'About | Mesin Press',
             //'tes' => ['satu', 'dua', 'tiga']
         ];
         return view('page/about', $data);
@@ -27,7 +27,7 @@ class Page extends BaseController
     public function contact()
     {
         $data = [
-            'title' => 'contact | Unipdu Press',
+            'title' => 'contact | Mesin Press',
             'alamat' => [
                 ['tipe' => 'Rumah', 'alamat' => 'Jabon', 'kota' => 'Jombang'],
                 ['tipe' => 'Kantor', 'alamat' => 'Unipdu', 'kota' => 'Jombang'],
