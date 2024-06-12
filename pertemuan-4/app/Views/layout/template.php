@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">Unipdu Press</a>
+            <a class="navbar-brand" href="#">Mesin Press</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,6 +26,7 @@
                     <a class="nav-link" aria-current="about" href="/page/about">About</a>
                     <a class="nav-link" aria-current="contact" href="/page/contact">Contact</a>
                     <a class="nav-link" aria-current="books" href="/books">Books</a>
+                    <a class="nav-link" aria-current="penulis" href="/penulis/">Daftar Penulis</a>
                 </div>
             </div>
         </div>

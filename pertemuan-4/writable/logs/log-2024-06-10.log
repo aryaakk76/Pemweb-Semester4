@@ -1,0 +1,170 @@
+INFO - 2024-06-10 04:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 04:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:11:29 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(41): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:16:17 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(42): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:16:19 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(42): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:16:33 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(42): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:16:41 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(42): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:21:54 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 19.
+ 1 APPPATH\Views\pagers\penulis_pager.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(41): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:23:03 --> ErrorException: Undefined array key "tittle"
+in APPPATH\Views\pagers\penulis_pager.php on line 21.
+ 1 APPPATH\Views\pagers\penulis_pager.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tittle"', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(41): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:23:14 --> ErrorException: Undefined variable $link
+in APPPATH\Views\pagers\penulis_pager.php on line 21.
+ 1 APPPATH\Views\pagers\penulis_pager.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $link', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(41): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-10 06:23:26 --> ErrorException: Undefined array key "tittle"
+in APPPATH\Views\pagers\penulis_pager.php on line 21.
+ 1 APPPATH\Views\pagers\penulis_pager.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tittle"', 'D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\pagers\\penulis_pager.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(128): CodeIgniter\View\View->render('App\\Views\\Pagers\\penulis_pager')
+ 5 SYSTEMPATH\Pager\Pager.php(85): CodeIgniter\Pager\Pager->displayLinks('penulis', 'penulis_pager')
+ 6 APPPATH\Views\penulis\index.php(41): CodeIgniter\Pager\Pager->links('penulis', 'penulis_pager')
+ 7 SYSTEMPATH\View\View.php(228): include('D:\\cahya2\\pemweb\\pertemuan-4\\app\\Views\\penulis\\index.php')
+ 8 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('penulis/index', [], true)
+10 APPPATH\Controllers\Penulis.php(36): view('penulis/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Penulis->index()
+12 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+13 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\cahya2\\pemweb\\pertemuan-4\\public\\index.php')
+INFO - 2024-06-10 06:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-10 06:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
